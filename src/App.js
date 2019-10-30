@@ -11,7 +11,7 @@ class App extends Component {
             selectedRadioItem:{}
             
         }
-        this.onChange = this.onChange.bind(this);
+        
     }
 
     handleRadioChange(item){
@@ -78,7 +78,7 @@ class App extends Component {
 
         
 
-        const { accountNumber1, accountNumber2, firstName, lastName, selectedRadioItem} = this.state;
+        const { selectedRadioItem} = this.state;
         
         
 
